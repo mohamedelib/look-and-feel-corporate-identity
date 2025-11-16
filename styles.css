@@ -229,6 +229,7 @@ h2{
   color: white;
   padding: 20px;
   list-style-type: none;
+
 }
 .footer li{
     color:white;
@@ -236,12 +237,14 @@ h2{
 
 .footer a{
     color: white;
+
 }
+
 .footerlist{
         display:flex;
         flex-direction:column;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: start;
         padding:0;
 }
 
@@ -249,7 +252,8 @@ h2{
      @media(min-width: 925px){
         display:flex;
         flex-direction:column;
-        justify-content: center;
-        align-items: center; 
+        justify-content: start;
+        align-items: left; 
+        padding-top: 20px;
 }
 }

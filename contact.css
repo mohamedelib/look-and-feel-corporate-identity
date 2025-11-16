@@ -195,18 +195,18 @@ button:hover{
 .footerlist{
         display:flex;
         flex-direction:column;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: left;
         padding:0;
 }
 
 .contact {
-    text-align: center;
-     @media(min-width: 925px){
+ @media(min-width: 925px){
         display:flex;
         flex-direction:column;
-        justify-content: center;
-        align-items: center; 
+        justify-content: start;
+        align-items: left; 
+        padding-top: 20px;
 }
 }
 
