@@ -1,35 +1,25 @@
-# Look and Feel - Corporate Identity
+# All Human - Accessible Website
 
 ## Wrap up
 
-> Waar kan de klant het meeste feedback op hebben? Waar zijn de grootste risico's en zal er waarschijnlijk het meeste werk in kruipen? - Emiel Van Betsbrugge, Active Theory
+Tijdens de Wrap up ga je bekijken wat je nog kan afmaken voor de Sprint Review; wat wil je donderdag laten zien en wat is daar nog voor nodig? Ook zorg je ervoor dat je project een nette professionele Readme krijgt.
 
-Tijdens de *Wrap up* ga je voorbereiden waar je feedback op wil van de opdrachtgever en wat je nog kan afmaken. 
 
-### Aanpak
+### Sprint Review 
 
-Bespreek met een andere student wat je donderdag wil laten zien tijdens de Sprint Review. Daarna doorloop je samen de Readme.
+Elke sprint ga je je werk demonstreren en overleggen met de opdrachtgever tijdens de Sprint Review.
 
-Bespreek vandaag met een docent wat je donderdag gaat laten zien en wat je nog moet doen.
+![](Een-sprint-bij-FDND.png)
 
-### Sprint Review voorbereiden
+De Sprint Review is geen Powerpoint presentatie. Het is de bedoeling om feedback te krijgen op het werk. Bedenk wat je donderdag wil laten zien en wat is daar nog voor nodig? Betrek de opdrachtgever bij het werk dat je aan het doen bent.
 
-Schrijf op het whiteboard je naam, de opdracht, wat je donderdag wil laten zien + een code vraag.
-
-Doorloop de workshop uit Sprint 2 voor een goede voorbereiding: https://github.com/fdnd-task/the-client-website/blob/main/docs/sprint-review.md
+Bereid de Sprint Review voor met alle studenten die dezelfde opdracht hebben. Schrijf op het whiteboard samen wat tegenviel vorige keer, of wat je gemist hebt. Bedenk ook hoe je het deze keer beter kunt gaan doen. Misschien wel door je beter voor te bereiden op de Sprint Review. In Sprint 2 heb je geleerd hoe je dat goed kunt doen. Doorloop dezelfde stappen voor een goede voorbereiding: https://github.com/fdnd-task/the-client-website/blob/main/docs/sprint-review.md
 
 
 ### Readme
 
-Als je een sprint afsluit, zorg er dan voor dat je *repository* een nette Readme heeft. Dit kan je gebruiken tijdens de Sprint Review en daarna geef je de opdrachtgever de link naar je repo, zodat die na de Sprint Review kan lezen en zien wat je hebt gemaakt..
+Als mensen jouw werk bekijken, wordt eerst de Readme gelezen om te begrijpen wat je gedaan hebt. Het is belangrijk om dit bestand heel duidelijk te schrijven.
 
-Begin de Readme met een korte uitleg over de opdracht. Hier kan je ook schrijven waar je feedback op wil, welke feature wil je dat de opdrachtgever bekijkt? Maak via GitHub Pages een URL van je project en voeg deze ook toe aan de Readme.
+In Sprint 2 heb je geleerd hoe je een nette Readme kan maken. Dit kan je weer toepassen in deze sprint. Bekijk je Readme van de vorige sprint, bedenk wat je deze keer beter kunt doen, en waar je de nadruk op wil leggen. Je hebt aan Toegankelijkheid gewerkt deze sprint, dus waarschijnlijk wil je daar iets over schrijven. Gebruik de uitleg en bronnen uit de vorige sprint als leidraad: https://github.com/fdnd-task/the-client-website/blob/main/docs/wrap-up.md
 
-#### Beschrijving
-
-Bij 'Beschrijving' komt te staan hoe je project er uit ziet, hoe het werkt en wat je er mee kan. Beschrijf hier de features waar je feedback op wil en voeg ook screenshots toe. 
-
-#### Kenmerken 
-
-Bij 'Kenmerken' staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? 
-
+Laat ook andere studenten naar jouw readme kijken en geef feedback op elkaars voorbereiding.

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+body{
+    background-color: #D9D9D9;
+    line-height: 1.4;
+    
+
+}
+
+
+.cta {
+  display: inline-block;
+  background: var(--accentkleur-lightmode);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cta:hover {
+  background: #1f4648; 
+}
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+        background-color: #D9D9D9;
+        overflow: scroll;
+}
+
+.navlogo{
+    cursor: pointer;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.navlogo p{
+  font-size: 11px;
+  text-align: center;
+    @media (min-width: 375px) {
+      font-size: 13px;
+  }
+}
+.navlogo:focus {
+  outline: 2px solid #2B5E60;
+  outline-offset: 4px;
+}
+
+
+.links{
+    list-style: none;
+    display:flex;
+
+}
+.links li{
+display: flex;
+padding: 0 20px;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+    color:#2B5E60
+}
+
+button{
+    padding: 9px 25px;
+    background-color: var(--accentkleur-lightmode);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+
+}
+
+.banner{
+    padding:6.5rem 0;
+    background-image: url("./fotos/banner.jpg");
+    background-origin: padding-box;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    /height: 200px;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.6);
+    border: 3px solid black;
+    color: white;
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:2rem;
+}
+
+    
+h2{
+    text-align: center;
+    padding: 10px;
+}
+.artikel {
+    max-width: 15rem;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+  }
+
+  .artikel a {
+    color:#2B5E60;
+    display: block;
+    margin-top: 10px;
+  }
+
+  #artikelen {
+    h2{
+        grid-column: 1/ -1;
+      }
+      .artikel:nth-of-type(3){
+        grid-column: span 2;
+      }
+
+    @media(min-width: 925px){
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    
+      
+    }
+
+    @media(min-width: 1100px){
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .artikel:nth-of-type(3){
+        grid-column: span 1;
+      }
+    } 
+
+  }
+
+  .welkom{
+    text-align: left;
+
+  }
+  #intro {
+  padding: 2em ;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+@media (min-width:768px) {
+    #intro {
+        flex-direction: row;
+    }
+}
+
+
+.deelscholen {
+  @media (min-width: 1189px){
+  display: flex;
+  flex-direction: row;
+  
+}
+}
+.deelscholen img {
+  @media (min-width: 1189px){
+    height: 250px ;
+    width: 450px;
+    padding-bottom: 15px;
+  }
+}
+.intro-foto{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:768px) {
+    .intro-foto{
+        /* min-height: 5rem; */
+        /* min-width: 5rem; */
+        max-width:80rem;
+        max-height: 40rem;
+    }
+}
+ #scholen img{
+    display:block;
+    margin: auto;
+    max-width: 100%;
+
+    
+
+  }
+
+  .footer {
+  background-color: var(--accentkleur-lightmode);
+  color: white;
+  padding: 20px;
+  list-style-type: none;
+}
+.footer li{
+    color:white;
+}
+
+.footer a{
+    color: white;
+}
+.footerlist{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+}
+
+.contact {
+     @media(min-width: 925px){
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center; 
+}
+}
