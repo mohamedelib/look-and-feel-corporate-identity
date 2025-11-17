@@ -19,6 +19,9 @@ body{
 
 }
 
+#logotekst{
+  color: black;
+} 
 
 .cta {
   display: inline-block;
@@ -37,7 +40,7 @@ li, a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #000000;
+    color: white;
     text-decoration: none;
 }
 
@@ -97,19 +100,32 @@ padding: 0 20px;
     color:#2B5E60
 }
 
-/* button{
+    button{
     padding: 9px 25px;
     background-color: var(--accentkleur-lightmode);
     border:none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: white; */
-
-/* button:hover{
+    color: white; 
+    all: unset;
+    }
+     
+    button:hover{
     background-color: rgba(0, 136, 169, 0.8);
 
-} */
+} 
+  #hrefbut{
+  display: inline-block;
+  background: var(--accentkleur-lightmode);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+
+  }
+
 
 .close-menu {
   background-color: var(--accentkleur-lightmode);
@@ -129,12 +145,13 @@ padding: 0 20px;
   background-color: var(--accentkleur-lightmode);
   position: fixed;
   max-width: 28em;
+  margin-left: auto;
 }
 
 :popover-open ul{
    display: flex;
   flex-direction: column;
-  justify-content: right;
+  justify-content: center;
 }
 :popover-open a {
   font-size: 30px;
