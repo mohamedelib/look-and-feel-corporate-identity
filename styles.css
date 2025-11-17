@@ -7,6 +7,7 @@
 
 }
 
+
 .visually-hidden {
   position: absolute;
   left: -9999px;
@@ -15,7 +16,6 @@
 body{
     background-color: #D9D9D9;
     line-height: 1.4;
-    
 
 }
 
@@ -49,7 +49,9 @@ header{
         background-color: #D9D9D9;
         overflow: scroll;
 }
-
+nav{
+  position: relative;
+}
 .navlogo{
     cursor: pointer;
     margin-right: auto;
@@ -60,6 +62,10 @@ header{
 
    
 }
+
+.hamburger{
+  max-width: 80px;
+} 
 .navlogo p{
   font-size: 11px;
   text-align: center;
@@ -91,20 +97,48 @@ padding: 0 20px;
     color:#2B5E60
 }
 
-button{
+/* button{
     padding: 9px 25px;
     background-color: var(--accentkleur-lightmode);
     border:none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: white;
-}
-button:hover{
+    color: white; */
+
+/* button:hover{
     background-color: rgba(0, 136, 169, 0.8);
 
+} */
+
+.close-menu {
+  background-color: var(--accentkleur-lightmode);
+  all: unset;
+  position: absolute;
+  right: 1em;
 }
 
+.close-menu ul{
+ 
+}
+:popover-open{
+  display:flex;
+  margin-right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--accentkleur-lightmode);
+  position: fixed;
+  max-width: 28em;
+}
+
+:popover-open ul{
+   display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+:popover-open a {
+  font-size: 30px;
+}
 .banner{
     padding:6.5rem 0;
     background-image: url("./fotos/banner.jpg");
