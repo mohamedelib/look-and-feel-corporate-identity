@@ -110,7 +110,12 @@ padding: 0 20px;
 }
 
 .links li a:hover {
-    color:#2B5E60
+  color:#2B5E60;
+
+  @media (max-width: 925px) {
+    color: var(--hover)
+   
+  }
 }
 
 
@@ -169,6 +174,7 @@ button[popovertarget="menu"] {
 :popover-open a {
   font-size: 30px;
 }
+
 .banner{
   padding:6.5rem 0;
   background-image: url("./fotos/banner.jpg");
