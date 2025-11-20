@@ -69,6 +69,15 @@ nav {
 
    
 }
+#hrefbut{
+  background: var(--accentkleur-lightmode);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
 .hamburger{
   max-width: 80px;
@@ -128,6 +137,11 @@ button[popovertarget="menu"] {
   }
 }
 
+#contacthref{
+  @media (min-width: 925px) {
+    display: none;
+  }
+}
 
 .close-menu {
   background-color: var(--accentkleur-lightmode);
@@ -325,4 +339,12 @@ h2{
 .emaill:hover{
   background-color: var(--links-background-darkmode);
 }
-  
+
+.banner h2{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.welkom h2 {
+font-family: "Montserrat", sans-serif;
+}

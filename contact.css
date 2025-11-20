@@ -67,6 +67,7 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 12px;
   font-size: 16px;
+  outline: 3px solid var(--accentkleur-lightmode);
 }
 
 textarea {
@@ -183,7 +184,11 @@ button[popovertarget="menu"] {
   }
 }
 
-
+#contacthref{
+  @media (min-width: 925px) {
+    display: none;
+  }
+}
 
 .close-menu {
   background-color: var(--accentkleur-lightmode);
