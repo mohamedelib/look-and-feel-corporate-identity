@@ -67,7 +67,7 @@ input, textarea {
   border: 1px solid #ccc;
   border-radius: 12px;
   font-size: 16px;
-  outline: 3px solid var(--accentkleur-lightmode);
+  outline: 1.5px solid var(--accentkleur-lightmode);
 }
 
 textarea {
