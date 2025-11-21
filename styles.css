@@ -19,6 +19,9 @@ body{
 
 }
 
+p{
+      max-width: 65ch;
+}
 
 .cta {
   display: none;
