@@ -60,12 +60,17 @@ Contact
 </div>
 
 <div class="inputs">
+  <!-- Formulier -->
+
     <form class="contact-form">
   <div class="row">
-    <input type="text" placeholder="Naam" required>
-    <input type="email" placeholder="E-mailadres" required>
+    <label class="visually-hiddenn" for="naam">Naam </label>
+      <input name="naam" type="text" placeholder="Naam" required>
+    <label class="visually-hiddenn" for="email">Email </label>
+    <input type="email"  name="email" placeholder="E-mailadres" required>
   </div>
-  <textarea placeholder="Bericht" required></textarea>
+  <label class="visually-hiddenn" for="bericht">Bericht </label>
+  <textarea placeholder="Bericht" name="bericht" required></textarea>
   <button class="verzend" type="submit">Bericht verzenden</button>
 </form>
     </div>
