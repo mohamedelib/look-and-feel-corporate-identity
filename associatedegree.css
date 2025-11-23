@@ -102,7 +102,7 @@ nav {
 @media (min-width: 925px) {
   .cta {
     display: inline-block;
-    background: var(--accentkleur-lightmode);
+    background: var(--primary-color-dark);
     color: white;
     padding: 10px 25px;
     border-radius: 25px;
@@ -197,9 +197,9 @@ p {
 /* ------------ FOOTER / CONTACT ------------ */
 
 .footer {
-  background-color: var(--accentkleur-lightmode);
+  background: var(--primary-color-dark);
   color: white;
-  padding:10px;
+  padding: 20px;
   list-style-type: none;
 }
 
@@ -234,7 +234,7 @@ p {
 
 .emaill {
   padding: 9px 25px;
-  background-color: var(--hover);
+  background-color: var(--secondary-color-lightmode);
   border:none;
   border-radius: 50px;
   cursor: pointer;
