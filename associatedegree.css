@@ -233,14 +233,16 @@ p {
 }
 
 .emaill {
-  padding: 9px 25px;
-  background-color: var(--secondary-color-lightmode);
-  border:none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  color: white;
-  text-align: center;
+   padding: 9px 25px;
+    background-color: var(--secondary-color-lightmode);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-align: center;
+    min-width: 200px;
+    
 }
 
 .emaill:hover{

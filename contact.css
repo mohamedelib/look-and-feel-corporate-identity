@@ -326,6 +326,8 @@ button:hover{
     transition: all 0.3s ease 0s;
     color: white;
     text-align: center;
+    min-width: 200px;
+    
 }
 
 .emaill:hover{
