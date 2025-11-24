@@ -116,7 +116,7 @@ padding: 0 20px;
   color:#2B5E60;
 
   @media (max-width: 925px) {
-    color: var(--hover)
+    color: var(--secondary-color-lightmode)
    
   }
 }
@@ -152,7 +152,7 @@ button[popovertarget="menu"] {
 }
 
 .close-menu {
-  background-color: var(--accentkleur-lightmode);
+  background-color: var(---primary-color-dark);
   all: unset;
   position: absolute;
   right: 1em;
@@ -162,7 +162,7 @@ button[popovertarget="menu"] {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: var(--accentkleur-lightmode);
+  background-color: var(--primary-color-dark);
   position: fixed;
   max-width: 28em;
   margin-left: auto;
@@ -343,7 +343,7 @@ h2{
     color: white;
     text-align: center;
     min-width: 200px;
-    
+
 }
 
 .emaill:hover{

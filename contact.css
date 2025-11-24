@@ -150,7 +150,12 @@ padding: 0 20px;
 }
 
 .links li a:hover {
-    color:#2B5E60
+  color:#2B5E60;
+
+  @media (max-width: 925px) {
+    color: var(--secondary-color-lightmode)
+   
+  }
 }
 
 
@@ -169,6 +174,9 @@ nav[popover] .links {
   }
 }
 
+nav[popover] .links li a:hover{
+ color: var(--secondary-color-lightmode) 
+}
 button[popovertarget="menu"] {
   all: unset;          /* reset alle standaard knop-styling */
   cursor: pointer;
@@ -184,7 +192,7 @@ button[popovertarget="menu"] {
 }
 
 .close-menu {
-  background-color: var(--accentkleur-lightmode);
+  background-color: var(--primary-color-dark);
   all: unset;
   position: absolute;
   right: 1em;
@@ -194,7 +202,7 @@ button[popovertarget="menu"] {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: var(--accentkleur-lightmode);
+  background-color: var(--primary-color-dark);
   position: fixed;
   max-width: 28em;
   margin-left: auto;
