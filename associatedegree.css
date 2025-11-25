@@ -92,7 +92,7 @@ nav {
 }
 
 .links li a:hover {
-  color:#2B5E60;
+  color:var(--primary-color-dark);
 
   @media (max-width: 925px) {
     color: var(--secondary-color-lightmode)
@@ -117,7 +117,7 @@ nav {
 }
 
 .cta:hover {
-  background: #1f4648;
+  background: var(--primary-color-dark)
 }
 
 /* popover navigatie */
