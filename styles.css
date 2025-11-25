@@ -95,7 +95,7 @@ nav {
   }
 }
 .navlogo:focus {
-  outline: 2px solid #2B5E60;
+  outline: 2px solid var(--primary-color-dark);
   outline-offset: 4px;
 }
 
