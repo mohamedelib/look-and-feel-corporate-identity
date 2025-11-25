@@ -8,10 +8,7 @@
 }
 
 
-.visually-hidden {
-  position: absolute;
-  left: -9999px;
-}
+
 
 body{
     background-color: #D9D9D9;
@@ -56,6 +53,11 @@ header{
     padding: 30px 5%;
         background-color: #D9D9D9;
         overflow: scroll;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
 }
 nav {
   position: relative;
@@ -348,7 +350,7 @@ h2{
 }
 
 .emaill:hover{
-  background-color: var(--links-background-darkmode);
+  background-color: var(--secondary-color-darkmode);
 }
 
 .banner h2{

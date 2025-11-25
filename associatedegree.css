@@ -254,7 +254,7 @@ p {
 }
 
 .emaill:hover{
-  background-color: var(--links-background-darkmode);
+  background-color: var(--secondary-color-darkmode);
 }
 
 main h1 {
