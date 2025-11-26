@@ -1,50 +1,50 @@
-ADConnect – Overlegplatform Associate Degree Live URL: https://mohamedelib.github.io/all-human-accessible-website/index.html
+Look & Feel – Corporate Identity
 
-Intro
+Live versie: https://mohamedelib.github.io/look-and-feel-corporate-identity/
 
-De opdracht was om een toegankelijke en informatieve website te maken voor het Overlegplatform Associate Degree. Het doel is om een centrale plek te creëren waar docenten, studenten, beleidsmakers en toekomstige werkgevers snel informatie kunnen vinden over de Associate degree, nieuws & evenementen kunnen bekijken, en contact kunnen opnemen met het platform.
+Korte uitleg
+
+Voor deze sprint heb ik gewerkt aan de look and feel van een website. Ik heb een eigen stijl gemaakt en toegepast op mijn paginas. Tijdens de Sprint Review hoor ik graag feedback op de navigatie, het kleurgebruik en de styleguide.
 
 Beschrijving
 
-De ADConnect website is opgebouwd als een overzichtelijke, statische website met navigatiestructuur en informatieve secties. De homepage bevat:
+In dit project laat ik zien hoe mijn ontwerp eruitziet en hoe het werkt. Ik heb een basis styleguide opgezet en die gebruikt voor de website. Hieronder staat een overzicht van wat ik heb gemaakt.
 
-Een header met logo en navigatiebalk
+Wat ik heb gemaakt
 
-Een korte introductie over het platform en de Associate degree
+Navigatie die werkt op mobiel en desktop
 
-Een sectie met nieuws en evenementen
+Kleuren, typografie en spacing op basis van mijn styleguide
 
-Een overzicht van deelnemende hogescholen
+Knoppen, links etc
 
-Een footer met contactinformatie en bestuursleden
-
-Desktopweergave Homepage
-<img width="1440" height="708" alt="image" src="https://github.com/user-attachments/assets/afd508ef-1f84-460c-80b5-c44750eb649a" />
-
-Desktopweergave Contact pagina
-<img width="1440" height="710" alt="image" src="https://github.com/user-attachments/assets/635f95cf-3c3b-405c-b49b-17ba386c7918" />
-
-Mobiele weergave Homepage
-<img width="399" height="708" alt="image" src="https://github.com/user-attachments/assets/af1bb698-afba-4dff-8f68-bfd0e2a6afe2" />
-
-Mobiele weergave contactpagina
-<img width="397" height="708" alt="image" src="https://github.com/user-attachments/assets/42df9d16-b05e-4a8c-8056-62592561ed5b" />
+Een eenvoudige layout die op alle schermformaten werkt
 
 
-De website is responsief, wat betekent dat de lay-out zich aanpast aan verschillende schermformaten, zoals laptops, tablets en smartphones.
+Waar ik graag feedback op wil
 
-Kenmerken HTML
+Zijn de kleuren duidelijk en consistent
 
-structuur met
+Is de navigatie logisch en makkelijk te gebruiken
+
+Onze styleguide
+
+Screenshots
+
+Home
+<img width="1439" height="769" alt="image" src="https://github.com/user-attachments/assets/ecafab31-fe4d-4080-8c04-4d16d0288cf8" />
+<img width="495" height="776" alt="image" src="https://github.com/user-attachments/assets/362b0730-0787-4975-8185-7d6edae8d9c9" />
+Associate Degree
+<img width="1440" height="780" alt="image" src="https://github.com/user-attachments/assets/99384b6e-75e6-4443-9222-cd93f014b483" />
+<img width="487" height="772" alt="image" src="https://github.com/user-attachments/assets/d065cae3-0361-43c5-a31a-35ac93f0fbb3" />
+Over ons 
+<img width="1435" height="763" alt="image" src="https://github.com/user-attachments/assets/51c39a19-a0d6-46fe-bffd-ebcb121283b8" />
+<img width="492" height="769" alt="image" src="https://github.com/user-attachments/assets/f06fe114-7e29-45b7-8c06-ae9da4d42d48" />
+Contact
+<img width="1428" height="767" alt="image" src="https://github.com/user-attachments/assets/6d2e04b2-7e33-4ebb-9832-a3014caa807e" />
+<img width="485" height="761" alt="image" src="https://github.com/user-attachments/assets/0511ddf0-a905-403a-a604-83f6070e59de" />
 
 
-**WCAG Audit.
-Website: [ADConnect](https://mohamedelib.github.io/all-human-accessible-website/contact.html)
-<img width="86" height="65" alt="logo-klein" src="https://github.com/user-attachments/assets/7868809e-f22a-4f15-8503-409e1454aae8" />
+Project bekijken
 
-
-Voor deze opdracht heb ik gekeken naar de toegankelijkheid van een website. Ik wilde weten hoe gebruiksvriendelijk en inclusief de site is voor iedereen ook voor mensen die bijvoorbeeld met een schermlezer werken of liever met het toetsenbord navigeren. De site die ik heb getest, is een project van mij voor de organisatie Adconnect. Hiervoor heb ik zowel Lighthouse-tests als handmatige checks uitgevoerd.
-
-Mijn testbevindingen kun je vinden in mijn wiki:
-
-Over het algemeen scoort de site goed. De belangrijkste functies zijn toegankelijk, de structuur is logisch en de meeste WCAG-regels worden gevolgd. Dit aangezien de site best simpel gebouwd is. 
+Open de live link bovenaan of download de repository en open index.html
