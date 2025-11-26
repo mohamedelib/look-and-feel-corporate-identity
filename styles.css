@@ -52,7 +52,6 @@ header{
     align-items: center;
     padding: 30px 5%;
         background-color: #D9D9D9;
-        overflow: scroll;
 }
 
 .visually-hidden {
@@ -199,6 +198,7 @@ button[popovertarget="menu"] {
   justify-content: space-around;
   gap:2rem;
 }
+
 .banner,
 .banner a {
     color: white;
