@@ -346,8 +346,10 @@ h2{
     color: white;
     text-align: center;
     min-width: 200px;
+    margin: 0 auto;
+    justify-content: center;
 
-
+    
 &:hover{
   background-color: var(--secondary-color-darkmode);
 }

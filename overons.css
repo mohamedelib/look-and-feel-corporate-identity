@@ -1,32 +1,23 @@
-body{
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+body {
     background-color: #D9D9D9;
     line-height: 1.5;
-
+}
+/* Header */
+p {
+    max-width: 65ch;
 }
 
-p{
-      max-width: 65ch;
-}
-
-.cta {
-  display: none;
-    @media (min-width: 925px) {
-      display: inline-block;
-      background: var(--primary-color-dark);
-      color: white;
-      padding: 10px 25px;
-      border-radius: 25px;
-      text-decoration: none;
-      font-family: "Montserrat", sans-serif;
-    }
-
-    &:hover {
-      background: var(--primary-color-dark);
-  }
-}
-
-
-li, a{
+li, a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -34,40 +25,70 @@ li, a{
     text-decoration: none;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 5%;
-        background-color: #D9D9D9;
+    background-color: #D9D9D9;
 }
 
-.visually-hidden {
-  position: absolute;
-  left: -9999px;
-}
-nav {
-  position: relative;
-
-}
-
-.navlogo{
+.navlogo {
     cursor: pointer;
     margin-right: auto;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.links{
-    list-style: none;
-    display:flex;
-
+.navlogo p {
+    font-size: 11px;
+    text-align: center;
 }
-.links li{
-display: flex;
-padding: 0 20px;
+
+@media (min-width: 375px) {
+    .navlogo p {
+        font-size: 13px;
+    }
+}
+
+.navlogo:focus {
+    outline: 2px solid var(--primary-color-dark);
+    outline-offset: 4px;
+}
+
+#logotekst {
+    /* krijgt styling via p en .navlogo p */
+}
+
+.hamburger {
+    max-width: 80px;
+}
+
+button[popovertarget="menu"] {
+    all: unset;
+    cursor: pointer;
+}
+
+@media (min-width: 925px) {
+    button[popovertarget="menu"] {
+        display: none;
+    }
+}
+
+nav {
+    position: relative;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.links li {
+    display: flex;
+    padding: 0 20px;
 }
 
 .links li a {
@@ -75,67 +96,209 @@ padding: 0 20px;
 }
 
 .links li a:hover {
-  color:var(--primary-color-dark);
-
-  @media (max-width: 925px) {
-    color: var(--secondary-color-lightmode)
-   
-  }
+    color: var(--primary-color-dark);
 }
 
+@media (max-width: 925px) {
+    .links li a:hover {
+        color: var(--secondary-color-lightmode);
+    }
+}
 
-nav[popover] { /*[] zijn een CSS-attribuutselector*/
-  @media (min-width: 925px) {
-    display: block; /* de navigatie met popover attribuut wordt zichtbaar als normaal blok: https://medium.com/@ayshaismail021/understanding-css-display-property-block-none-inline-and-inline-block-4f8f3bd27d26*/
-    border: none;
-    background-color: #D9D9D9;
-  }
+nav[popover] {
+    /* attribuutselector */
+}
+
+@media (min-width: 925px) {
+    nav[popover] {
+        display: block;
+        border: none;
+        background-color: #D9D9D9;
+    }
 }
 
 nav[popover] .links {
-  @media (min-width: 925px) {
-    display: flex; /*De <ul> wordt geflext vanaf een schermgrootte van 1060px*/
-    flex-direction: row;
-  }
 }
 
-button[popovertarget="menu"] {
-  all: unset;         
-  cursor: pointer;    
-  @media (min-width: 925px) {
-    display: none; /*Hiermee verberg je de hamburger menu knop vanaf een schermgrootte van 1060px*/
-  }
+@media (min-width: 925px) {
+    nav[popover] .links {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
-#contacthref{
-  @media (min-width: 925px) {
-    display: none;
-  }
+#contacthref {
+}
+
+@media (min-width: 925px) {
+    #contacthref {
+        display: none;
+    }
 }
 
 .close-menu {
-  background-color: var(---primary-color-dark);
-  all: unset;
-  position: absolute;
-  right: 1em;
+    background-color: var(---primary-color-dark);
+    all: unset;
+    position: absolute;
+    right: 1em;
 }
 
 :popover-open {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: var(--primary-color-dark);
-  position: fixed;
-  max-width: 28em;
-  margin-left: auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color-dark);
+    position: fixed;
+    max-width: 28em;
+    margin-left: auto;
 }
 
-:popover-open ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+:popover-open ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 :popover-open a {
-  font-size: 30px;
+    font-size: 30px;
 }
+
+.cta {
+    display: none;
+}
+
+@media (min-width: 925px) {
+    .cta {
+        display: inline-block;
+        background: var(--primary-color-dark);
+        color: white;
+        padding: 10px 25px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+.cta:hover {
+    background: var(--primary-color-dark);
+}
+/* Einde header */
+
+/* Grid */
+.team {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.team-grid {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 2rem;
+
+  /* 1 kolom mobiel, 2 tablet, 4 desktop */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  padding: 1rem;
+}
+
+.team-card img {
+  width: 160px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.team-card h3 {
+  font-size: 1.3rem;
+  margin: .5rem 0;
+  color: #005c5c; /* zelf je kleur toepassen */
+}
+
+.team-card .functie {
+  font-weight: 600;
+  color: #666;
+}
+
+.team-card a {
+  color: #c4792c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.team-card a:hover {
+  text-decoration: underline;
+}
+
+
+
+#overons{
+padding-left: 20px;
+}
+
+#overons p {
+  padding-bottom: 10px;
+}
+
+
+
+/* Footer */
+.footer {
+    background: var(--primary-color-dark);
+    color: white;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.footer li {
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footerlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    padding: 0;
+}
+
+.contact {
+    padding-top: 20px;
+}
+
+@media (min-width: 925px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.emaill {
+    padding: 9px 25px;
+    background-color: var(--secondary-color-lightmode);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-align: center;
+    min-width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.emaill:hover {
+    background-color: var(--secondary-color-darkmode);
+}
+/* Einde footer */
