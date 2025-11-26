@@ -174,9 +174,9 @@ nav[popover] .links {
   }
 }
 
-nav[popover] .links li a:hover{
+/* nav[popover] .links li a:hover{
  color: var(--secondary-color-lightmode) 
-}
+} */
 button[popovertarget="menu"] {
   all: unset;          /* reset alle standaard knop-styling */
   cursor: pointer;
@@ -259,9 +259,7 @@ padding: 0 20px;
     transition: all 0.3s ease 0s;
 }
 
-.links li a:hover {
-    color: var(--primary-color-dark)
-}
+
 
 .cta {
   display: none;
@@ -336,8 +334,8 @@ button:hover{
     text-align: center;
     min-width: 200px;
     
-}
 
-.emaill:hover{
+&:hover{
   background-color: var(--secondary-color-darkmode);
+}
 }

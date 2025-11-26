@@ -177,9 +177,9 @@ button[popovertarget="menu"] {
 :popover-open a {
   font-size: 30px;
 }
-nav[popover] .links li a:hover{
+/* nav[popover] .links li a:hover{
  color: var(--secondary-color-lightmode) 
-}
+} */
 
 /* ------------ PAGINA SPECIFIEK (ASSOCIATEDEGREE) ------------ */
 
@@ -251,10 +251,11 @@ p {
     text-align: center;
     min-width: 200px;
     
-}
 
-.emaill:hover{
+
+&:hover{
   background-color: var(--secondary-color-darkmode);
+}
 }
 
 main h1 {

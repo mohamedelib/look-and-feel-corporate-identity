@@ -189,7 +189,7 @@ button[popovertarget="menu"] {
   background-size: cover;
   /* height: 200px; */
   background-blend-mode: darken;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.7);
   border: 3px solid black;
   color: white;
   font-family: inter;
@@ -347,10 +347,10 @@ h2{
     text-align: center;
     min-width: 200px;
 
-}
 
-.emaill:hover{
+&:hover{
   background-color: var(--secondary-color-darkmode);
+}
 }
 
 .banner h2{
