@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -93,6 +93,7 @@ nav {
 
 .links li a {
     transition: all 0.3s ease 0s;
+    
 }
 
 .links li a:hover {
