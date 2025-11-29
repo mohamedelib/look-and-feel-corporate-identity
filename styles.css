@@ -33,7 +33,7 @@ p{
     }
 
     &:hover {
-      background: var(--primary-color-dark);
+      background: var(--secondary-color-darkmode);
   }
 }
 
