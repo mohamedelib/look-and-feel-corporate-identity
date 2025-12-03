@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
 
 .visually-hiddenn {
   clip: rect(0 0 0 0);
@@ -23,45 +21,43 @@
   left: -9999px;
 }
 
-body{
-    background-color: #D9D9D9;
-    line-height: 1.5;
-    /* display: grid;
+body {
+  background-color: #d9d9d9;
+  line-height: 1.5;
+  /* display: grid;
     grid-template-rows: auto 1fr auto;
     display: flex;
     flex-direction: column; */
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
-
-
 
 main {
   flex: 1;
 }
 
 .naam {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.contact-tekst{
-    text-align: center;
-    justify-content: space-between;
+.contact-tekst {
+  text-align: center;
+  justify-content: space-between;
 }
 
-.contact-tekst h1{
-    font-size: 20px;
-    padding-bottom: 5px;
-
+.contact-tekst h1 {
+  font-size: 20px;
+  padding-bottom: 5px;
 }
 .contact-tekst {
-    padding-bottom: 5px;
-      font-family: "Montserrat", sans-serif;
+  padding-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .row {
@@ -69,7 +65,8 @@ main {
   gap: 10px;
   margin-bottom: 10px;
 }
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 15px;
   border: 1px solid #ccc;
@@ -84,48 +81,43 @@ textarea {
   margin-bottom: 15px;
 }
 
-
-
-
-li, a{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 5%;
-        background-color: #D9D9D9;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+  background-color: #d9d9d9;
 }
 nav {
   position: relative;
-
 }
 
-.navlogo{
-    cursor: pointer;
-    margin-right: auto;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-   
+.navlogo {
+  cursor: pointer;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.hamburger{
+.hamburger {
   max-width: 80px;
-} 
-.navlogo p{
+}
+.navlogo p {
   font-size: 11px;
   text-align: center;
-    @media (min-width: 375px) {
-      font-size: 13px;
+  @media (min-width: 375px) {
+    font-size: 13px;
   }
 }
 .navlogo:focus {
@@ -133,36 +125,33 @@ nav {
   outline-offset: 4px;
 }
 
-
-.links{
-    list-style: none;
-    display:flex;
-
+.links {
+  list-style: none;
+  display: flex;
 }
-.links li{
-display: flex;
-padding: 0 20px;
+.links li {
+  display: flex;
+  padding: 0 20px;
 }
 
 .links li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .links li a:hover {
-  color:var(--primary-color-dark);
+  color: var(--primary-color-dark);
 
   @media (max-width: 925px) {
-    color: var(--secondary-color-lightmode)
-   
+    color: var(--secondary-color-lightmode);
   }
 }
 
-
-nav[popover] { /*[] zijn een CSS-attribuutselector*/
+nav[popover] {
+  /*[] zijn een CSS-attribuutselector*/
   @media (min-width: 925px) {
     display: block; /* de navigatie met popover attribuut wordt zichtbaar als normaal blok: https://medium.com/@ayshaismail021/understanding-css-display-property-block-none-inline-and-inline-block-4f8f3bd27d26*/
     border: none;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
   }
 }
 
@@ -177,14 +166,14 @@ nav[popover] .links {
  color: var(--secondary-color-lightmode) 
 } */
 button[popovertarget="menu"] {
-  all: unset;          /* reset alle standaard knop-styling */
+  all: unset; /* reset alle standaard knop-styling */
   cursor: pointer;
   @media (min-width: 925px) {
     display: none; /*Hiermee verberg je de hamburger menu knop vanaf een schermgrootte van 1060px*/
   }
 }
 
-#contacthref{
+#contacthref {
   @media (min-width: 925px) {
     display: none;
   }
@@ -207,7 +196,7 @@ button[popovertarget="menu"] {
   margin-left: auto;
 }
 
-:popover-open ul{
+:popover-open ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,79 +206,86 @@ button[popovertarget="menu"] {
   font-size: 30px;
 }
 
-li, a{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
-}
-
-
-
-
-
-
-.verzend{
-  background:var(--primary-color-dark);
-  color: white;
-  padding: 15px 40px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 16px;
+  color: #000000;
+  text-decoration: none;
 }
 
 form {
-  text-align: center;
-  padding:50px;
-}
-.links{
-    list-style: none;
-    display:flex;
-
-}
-.links li{
-display: flex;
-padding: 0 20px;
-}
-
-.links li a {
-    transition: all 0.3s ease 0s;
-}
-
-
-
-.cta {
-  display: none;
-    @media (min-width: 925px) {
-      display: inline-block;
-      background: var(--primary-color-dark);
-      color: white;
-      padding: 10px 25px;
-      border-radius: 25px;
-      text-decoration: none;
-      font-family: "Montserrat", sans-serif;
-    }
-
-    &:hover {
-      background: var(--primary-color-dark);
+  div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+  }
+  button[type="submit"] {
+    background: var(--primary-color-dark);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
   }
 }
 
+
+.checkmark {
+display: none;
+width: 50px;
+/* left: calc(50%-25px); */
+
+}
+
+.checkmarkyes{
+display: block;
+
+}
+
+
+form {
+  text-align: center;
+  padding: 50px;
+}
+.links {
+  list-style: none;
+  display: flex;
+}
+.links li {
+  display: flex;
+  padding: 0 20px;
+}
+
+.links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.cta {
+  display: none;
+  @media (min-width: 925px) {
+    display: inline-block;
+    background: var(--primary-color-dark);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  &:hover {
+    background: var(--primary-color-dark);
+  }
+}
 
 .cta:hover {
   background: #1f4648; /* iets donkerder bij hover */
 }
 
-
-
-
-button:hover{
-    background-color: rgba(0, 136, 169, 0.8);
-
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
-
 
 .footer {
   background: var(--primary-color-dark);
@@ -297,44 +293,43 @@ button:hover{
   padding: 20px;
   list-style-type: none;
 }
-.footer li{
-    color:white;
+.footer li {
+  color: white;
 }
 
-.footer a{
-    color: white;
+.footer a {
+  color: white;
 }
-.footerlist{
-        display:flex;
-        flex-direction:column;
-        justify-content: start;
-        align-items: left;
-        padding:0;
+.footerlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  padding: 0;
 }
 
 .contact {
-          padding-top: 20px;
- @media(min-width: 925px){
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center; 
-}
+  padding-top: 20px;
+  @media (min-width: 925px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .emaill {
-   padding: 9px 25px;
-    background-color: var(--secondary-color-lightmode);
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: white;
-    text-align: center;
-    min-width: 200px;
-    
+  padding: 9px 25px;
+  background-color: var(--secondary-color-lightmode);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-align: center;
+  min-width: 200px;
 
-&:hover{
-  background-color: var(--secondary-color-darkmode);
-}
+  &:hover {
+    background-color: var(--secondary-color-darkmode);
+  }
 }
